@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rama.arogya" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmotionsActivity"
+            android:label="@string/title_activity_emotions" >
+        </activity>
+        <activity
+            android:name=".LoveActivity"
+            android:label="@string/title_activity_love" >
+        </activity>
+        <activity
+            android:name=".DepressedActivity"
+            android:label="@string/title_activity_depressed" >
+        </activity>
+        <activity
+            android:name=".DepressionQuestionForm"
+            android:label="@string/title_activity_depression_question_form" >
+        </activity>
+        <activity
+            android:name=".ReliefActivity"
+            android:label="@string/title_activity_relief" >
+        </activity>
+        <activity
+            android:name=".RecordActivity"
+            android:label="@string/title_activity_record" >
+        </activity>
+        <activity
+            android:name=".AngerActivity"
+            android:label="@string/title_activity_anger" >
+        </activity>
+        <activity
+            android:name=".HappyActivity"
+            android:label="@string/title_activity_happy" >
+        </activity>
+        <activity
+            android:name=".HappyQuestionnaireActivity"
+            android:label="@string/title_activity_happy_questionnaire" >
+        </activity>
+    </application>
+
+</manifest>
